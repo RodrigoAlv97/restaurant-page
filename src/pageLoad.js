@@ -11,16 +11,19 @@ function pageLoader (){
 
     const home = document.createElement('li');
     home.setAttribute('class' , 'listItem');
+    home.setAttribute('id' , 'home');
     home.textContent = 'HOME';
     headerList.appendChild(home);
 
     const menu = document.createElement('li');
     menu.setAttribute('class' , 'listItem');
+    menu.setAttribute('id' , 'menu');
     menu.textContent = 'MENU';
     headerList.appendChild(menu);
 
     const about = document.createElement('li');
     about.setAttribute('class' , 'listItem');
+    about.setAttribute('id' , 'about');
     about.textContent = 'ABOUT';
     headerList.appendChild(about);
 
