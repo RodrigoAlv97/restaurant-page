@@ -1,3 +1,4 @@
 import './style.css';
+import {pageLoader} from './pageLoad.js';
 
-console.log('Que dice illo');
+pageLoader();
