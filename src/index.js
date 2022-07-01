@@ -1,5 +1,6 @@
 import {pageLoader} from './pageLoad.js';
 import {homeLoader} from './home.js';
+import { aboutLoader } from './about.js';
 import './style.css';
 
 pageLoader();
@@ -16,7 +17,11 @@ home.addEventListener("click", function() {
     main.replaceChildren();
     homeLoader(main);
   });
-
+  
+about.addEventListener("click", function() {
+  main.replaceChildren();
+  aboutLoader(main);
+});
 
 
 
