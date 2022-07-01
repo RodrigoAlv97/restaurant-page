@@ -16,7 +16,7 @@
 }
 
 #main{
-    height: 100%;
+    height: 95%;
 }
 /*--------------------Header--------------------*/ 
 #header{
@@ -49,12 +49,40 @@
 }
 /*--------------------Header--------------------*/ 
 
+
+/*--------------------Home--------------------*/ 
+
+#homeContainer{
+    background-color: rgba(0, 0, 0, 0.633);
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#name{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: Verdana;
+}
+
+#subText{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+/*--------------------Home--------------------*/ 
+
+
 /*--------------------Footer--------------------*/ 
 #footer{
-    height: 50px;
+    height: 5%;
     border-top: 2px #ffec9678 solid;
     background-color: rgba(0, 0, 0, 0.633);
-    position: absolute;
+    position: fixed;
     bottom:0;
     width: 100%;
     position: fixed;
